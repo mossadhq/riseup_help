@@ -1,74 +1,62 @@
 @title = 'Mail für iOS'
 @nav_title = 'iOS Mail'
 
-Mail für iOS isr das Standard-Emailprogramm in Apples iOS-Betriebssystem.
+Mail für iOS ist das standardmäßige Mailprogramm in Apples iOS-System.
 
-Diese Seite hilft dir, dein iPhone oder iPod zum Abrufen von Riseup-Emails einzurichten. Die folgenden Bilder geleiten dirch Schritte für Schritt durch den Prozess zum Einrichten eines IMAP-Kontos auf deinem iPhone.
+Diese Seite hilft dir, dein iPhone, iPad oder iPod zum Lesen & Schreiben von Riseup-mails einzurichten. Mithilfe der Bilder wird dier im Folgenden der Einrichtungsprozess auf deinem iOS-Gerät Schritt für Schritt erklärt.
 
 h2. Emailkonto hinzufügen
 
-_Leider wurde dieser Abschnitt noch nicht übersetzt. "Hilf mit!":https://github.com/riseupnet/riseuphelp_
+Öffne die Einstellungen deines Gerätes:
 
-To get started you will need to first tap on the settings icon on your iPhone home screen:
+!img/1-DE.png!
 
-!img/step-1.png!
+Öffne das Menü "Accounts & Passwörter":
 
-At this screen tap on "Mail, Contacts, Calendars" which should bring you to the screen below:
+!img/2-DE.png!
 
-!img/step-2.png!
+Anschließend musst du auf "Account hinzufügen" tippen:
 
-Scroll down to the bottom and tap where it says "Other":
+!img/3-DE.png!
 
-!img/step-3.png!
+Tippe ganz unten auf die Option "Andere":
 
-Tap "Add Mail Account"
+!img/4-DE.png!
 
-h2. Fill out your account information
+Dort auf "Mail-Account hinzufügen" tippen:
 
-Add your information for your mail account. The "Name" area is the name that people recieving mail from you will be given as your name. The description area is to help identify this account on your phone if you have other mail accounts that you use on the same phone. You can put whatever you like there. When you're done filling this area out tap next.
+!img/5-DE.png!
 
-!img/step-5.png!
+Das Formular mit deinem Namen (Für die Empfänger deiner Mails lesbar!), deiner Mail-Adresse und deinem Passwort ausfüllen:
 
-h2. Set the outgoing server
+!img/6-DE.png!
 
-Now fill out the outgoing mail server like follows:
+Sowohl die Eingangs- als auch Ausgangsoptionen mit dem Hostname "mail.riseup.net", deinem Riseup-Nutzernamen und deinem Passwort ausfüllen:
 
-!img/step-6.png!
+!img/7-DE.png!
 
-h2. Set the incoming server
+Jetzt wirst du gefragt, ob du neben deinen Mails auch Notizen Synchronisieren willst. Da wir diese Funtkion derzeit nicht unterstützen, kannst du das einfach ausgeschaltet lassen:
 
-Make sure the incoming mail server looks like this, once it does, tap next:
+!img/8-DE.png!
 
-!img/step-7.png!
+h2. Du bist noch nicht fertig!
 
-h2. Syncing other data
+Öffne jetzt erneut deine Accounteinstellungen, indem du in dem jetzigen Menü auf deinen eben hinzugefügten Account tippst. Dort tippst du ganz unten auf "Erweitert":
 
-The next step might ask you if you want to sync notes, we do not support that, so leave that off, tap next to move on:
+!img/9-DE.jpeg!
 
-!img/step-8.png!
+Hier kannst du Einstellen, wo deine Entwürfe, deine gesendeten Mails und deine gelöschten Mails gespeichert werden. Um von all deinen Geräten auf diese Ordner zugreifen zu können, sollte es so eingestellt sein wie auf dem Bild.
 
-h2. You aren't finished yet!
+Überprüfe unbedingt, ob die Option "SSL verwenden" aktiviert ist:
 
-You want to go back into that new account to check a few things. You should still be in the "Mail, Contacts, Calendars" section of settings, if not, from the home screen tap "Settings" then "Mail, Contacts, Calendars" then tap on your new account. It will be named exactly what you typed in the "Description" area above. ("Riseup" in our example), you should get yourself back here:
+!img/10-DE.png!
 
-!img/step-4.png!
+h2. Fertig!
 
-Scroll down to the bottom and tap "Advanced", then you will see this:
+Jetzt solltest du Startklar sein:
 
-!img/step-9.png!
+!img/Finished-DE.jpeg!
 
-Here you can set your iPhone mailboxes they sync up with your imap mailboxes, tapping on "Drafts Mailbox" will allow you to store messages you're drafting on your iPhone on the server so you can work on them later from another computer. Similarly, the "Sent Mailbox" and "Deleted Mailbox" will allow you to access items sent or deleted from another computer as well. We call the "Deleted Mailbox" Trash.
-
-If you don't use drafts, sent, or deleted folders you don't need to set these up.
-
-Finally, make sure that SSL toggle is switched to on, and the other items match accordingly.
-
-h2. Finished!
-
-That's it, your mail should be all setup now:
-
-!img/finished.png!
-
-h1. Enhance your email security
+h1. Erweitere deine Mail-Sicherheit
 
 <%= render :file => '_enhance-security' %>
